@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.body-content {
+    max-height: 300px !important;
+    overflow-y: scroll;
+}
+
+.trix-button-group--history-tools {
+    display: none !important;
+}
+
+.error {
+    color: red;
+}
+
+.table-head {
+    @apply px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.table-data {
+    @apply px-6 py-4 text-sm whitespace-nowrap;
+}
+
+.event-notification-box {
+    @apply fixed right-0 top-0 mt-3 mr-3 px-5 py-3 rounded-sm shadow-lg text-white bg-green-500;
+}
